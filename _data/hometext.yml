@@ -39,16 +39,32 @@ publications:
   categories:
     - name: "Published"
       papers:
-        - authors: "Fuhua Zhai, Yookyong Lee, Qin Gao, Jing Guo, Huangshu Xu"
+        - author_list:
+            - name: "Fuhua Zhai"
+              url: "https://www.fordham.edu/graduate-school-of-social-service/faculty/full-time-faculty-profiles/fuhua-zhai/"
+            - name: "Yookyong Lee"
+              url: "https://www.uab.edu/cas/socialwork/people/faculty-directory/yookyong-lee"
+            - name: "Qin Gao"
+              url: "https://scholar.google.com/citations?user=JRvjTT4AAAAJ&hl=en"
+            - name: "Jing Guo"
+              url: ""
+            - name: "Huangshu Xu"
+              url: "https://www.huangshuxu.com"
           year: "2025"
-          title: "Intergenerational continuity of child maltreatment in East Asian American families: Roles of parents' beliefs in physical punishment and social support"
+          month: "December"
+          title: "Intergenerational Continuity of Child Maltreatment in East Asian American Families: Roles of Parents' Beliefs in Physical Punishment and Social Support"
           journal: "Child & Family Social Work"
-          url: "https://scholar.google.com"
-          status: ""
+          url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/cfs.70085"
+          status: "Published"
     - name: "Under Review"
       papers:
-        - authors: "Huangshu Xu, G.L. Farmer"
+        - author_list:
+            - name: "Huangshu Xu"
+              url: "https://www.huangshuxu.com"
+            - name: "G. Lawrence Farmer"
+              url: "https://www.fordham.edu/graduate-school-of-social-service/faculty/full-time-faculty-profiles/g-lawrence-farmer/"
           year: "2025"
+          month: "June"
           title: "Preparing MSW Students for Integrated Behavioral Health Practice: Evaluating the PIPELINE for Youth Health"
           journal: "Journal of Social Work Education"
           url: ""
@@ -60,35 +76,30 @@ projects:
   pdf_button_text: "Pdf"
   list:
     - title: "Addressing the U.S. Maternal Mental Health Crisis: A Systematic Review"
-      contributors: "Huangshu Xu & J. Aguilar"
+      contributors: "Huangshu Xu & Jemel Aguilar"
       abstract_text: "Systematic review of theoretical frameworks, policies, and interventions to promote health equity in maternal mental health. Presented at SSWR 30th Annual Conference, Washington, DC, January 2026."
-      pdf: "/assets/pdf/xhs_cv_up_to_date.pdf"
       status: "ongoing"
-    - title: "A Missed Opportunity for Early Intervention: Behavioral Health Services in Maternal and Child Health Home Visiting Programs"
-      contributors: "Huangshu Xu & W. Torres"
-      abstract_text: "Examining integration of behavioral health services in maternal and child health home visiting programs. Presented at SSWR 30th Annual Conference, Washington, DC, January 2026."
-      pdf: "/assets/pdf/xhs_cv_up_to_date.pdf"
-      status: "completed"
+      pdf: ""
     - title: "Preparing MSW Students for Integrated Behavioral Health Practice: Evaluating the PIPELINE for Youth Health"
-      contributors: "Huangshu Xu & G.L. Farmer"
+      contributors: "Huangshu Xu & G. Lawrence Farmer"
       abstract_text: "Evaluation of HRSA-funded BHWET program preparing MSW students for integrated behavioral health practice with youth. Presented at CSWE Annual Program Meeting, Atlanta, GA, October 2023."
-      pdf: "/assets/pdf/xhs_cv_up_to_date.pdf"
       status: "completed"
+      pdf: ""
     - title: "Supporting Behavioral Health Workforce Diversity and Resilience: Evaluating the PIPELINE for Youth Health Program"
-      contributors: "Huangshu Xu, G.L. Farmer, A. Panzano, & C. Tang"
+      contributors: "Huangshu Xu, G. Lawrence Farmer, A. Panzano, & C. Tang"
       abstract_text: "HRSA-funded initiative focused on workforce diversity, student resilience, and career pathways in behavioral health. Presented at CSWE Annual Program Meeting, Anaheim, CA, November 2022."
-      pdf: "/assets/pdf/xhs_cv_up_to_date.pdf"
       status: "completed"
+      pdf: ""
     - title: "Narrowing the Front Door to NYC's Child Welfare System"
       contributors: "James R. Dumpson Doctoral Fellowship Project with Dr. Anne Williams-Isom"
       abstract_text: "Documenting the history of NYC's Administration for Children's Services (ACS). Supported convenings of high-level policymakers and assisted in research dissemination for child welfare reform."
-      pdf: "/assets/pdf/xhs_cv_up_to_date.pdf"
       status: "completed"
+      pdf: ""
 
 teaching:
   title: "Teaching"
   list:
-    - title: "SWGS 6803: Applied Social Work Research and Evaluation"
+    - title: "SOWK 6803: Applied Social Work Research and Evaluation"
       school: "Graduate School of Social Service, Fordham University"
       text: |
         Teaching a 15-session in-person graduate course, leading instruction on applied research
@@ -96,9 +107,9 @@ teaching:
         practice and evaluation skills.
       role: "Adjunct Instructor"
       period: "Jan 2026 - Present"
-      button_text: "Fordham GSSS"
-      button_link: "https://www.fordham.edu/gsss"
-    - title: "SWGS 6320: Social Work Practice with Organizations and Communities"
+      button_text: "Fordham GSSS Course Link"
+      button_link: "https://bulletin.fordham.edu/undergraduate/social-work/program-handbook/curriculum-and-courses/#coursestext"
+    - title: "SOWK 6320: Social Work Practice with Organizations and Communities"
       school: "Graduate School of Social Service, Fordham University"
       text: |
         Assisted in three in-person teaching sessions by preparing lectures and presentations.
@@ -106,8 +117,8 @@ teaching:
         support classroom engagement and develop skills in course facilitation and instructional support.
       role: "Teaching Assistant"
       period: "May 2024 - Aug 2024"
-      button_text: "Fordham GSSS"
-      button_link: "https://www.fordham.edu/gsss"
+      button_text: "Fordham GSSS Course Link"
+      button_link: "https://bulletin.fordham.edu/undergraduate/social-work/program-handbook/curriculum-and-courses/#coursestext"
 news:
   title: "News"
   list:

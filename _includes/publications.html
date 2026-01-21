@@ -9,8 +9,19 @@
     {% for paper in category.papers %}
     <div class="border-bottom pb-4 mb-4">
       <p class="fs-5 mb-2">
-        {% assign authors_with_bold = paper.authors | replace: "Huangshu Xu", "<strong>Huangshu Xu</strong>" %}
-        {{authors_with_bold}} ({{paper.year}}).
+        {% if paper.author_list %}
+          {% for author in paper.author_list %}
+            {% if author.url and author.url != "" %}
+              <a href="{{author.url}}" class="text-decoration-none" target="_blank">{% if author.name == "Huangshu Xu" %}<strong>{{author.name}}</strong>{% else %}{{author.name}}{% endif %}</a>{% if forloop.last == false %}, {% endif %}
+            {% else %}
+              {% if author.name == "Huangshu Xu" %}<strong>{{author.name}}</strong>{% else %}{{author.name}}{% endif %}{% if forloop.last == false %}, {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% assign authors_with_bold = paper.authors | replace: "Huangshu Xu", "<strong>Huangshu Xu</strong>" %}
+          {{authors_with_bold}}
+        {% endif %}
+        ({{paper.year}}).
         <em>{{paper.title}}</em>
         {% if paper.journal %}
         In <em>{{paper.journal}}</em>.
