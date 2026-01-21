@@ -165,12 +165,14 @@ contact:
       text: "LinkedIn"
       target: "_blank"
       url: "https://www.linkedin.com/in/huangshu-xu-5b63aa112/"
-      icon: "/assets/images/linkedin-original.svg"
+      icon: "/assets/images/icons8-linkedin-96.png"
+      icon_size: 50
     - google_scholar:
       text: "Google Scholar"
       target: "_blank"
       url: "https://scholar.google.com/citations?user=REttBB8AAAAJ&hl=en"
-      icon: "/assets/images/google_scholar_icon_130918.svg"
+    #  icon: "/assets/images/google_scholar_icon_130918.svg"
+      icon: "/assets/images/icons8-google-scholar-96.png"
       icon_size: 50
     # - website:
     #   text: "Homepage"
