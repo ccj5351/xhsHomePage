@@ -1,109 +1,169 @@
 header:
   title: "Huangshu Xu"
-  sub_title: "Your Area of Expertise"
+  sub_title: "LMSW, Ph.D. Candidate in Social Work"
   image: "/assets/images/xhs-profile-202510.jpeg"
   text: |
-    Welcome to my homepage. This is a brief introduction about my work and research interests.
-    Please update this section with your professional background and accomplishments.
+    Doctoral candidate in Social Work at Fordham University, specializing in child, youth, and
+    family wellbeing, maternal mental health, and integrated behavioral health. Experienced in
+    teaching, program evaluation, and collaborative research on social disparities and workforce
+    development. Dedicated to advancing evidence-based practice and promoting equity in
+    behavioral health and social service delivery.
   buttons:
-    - text: "Get In Touch"
+    - text: "Résumé"
+      url: "/assets/pdf/xhs_cv_up_to_date.pdf"
+      target: "_blank"
+    - text: "Scholar"
+      url: "https://scholar.google.com/citations?user=REttBB8AAAAJ&hl=en"
+      target: "_blank"
+      icon: "/assets/images/google_scholar_icon_130918.svg"
+    - text: "News"
+      url: "#news"
+    - text: "Contact"
       url: "#contact"
-    - text: "Teaching"
-      url: "#teaching"
+  contact_info:
+    - type: "email"
+      text: ""
+      icon: "/assets/images/xhuangshu-fordham-edu-email-hardcoded-img.png"
+      icon_size: 50
+    - type: "phone"
+      text: "+1 (917) 213-5822"
+      icon: "/assets/images/icons8-mobile-phone-50.png"
+      icon_size: 35
+    - type: "address"
+      text: "Fordham University at Lincoln Center, NYC"
+      icon: "/assets/images/icons8-address-30.png"
+      icon_size: 35
+
+publications:
+  title: "Publications"
+  categories:
+    - name: "Published"
+      papers:
+        - authors: "Fuhua Zhai, Yookyong Lee, Qin Gao, Jing Guo, Huangshu Xu"
+          year: "2025"
+          title: "Intergenerational continuity of child maltreatment in East Asian American families: Roles of parents' beliefs in physical punishment and social support"
+          journal: "Child & Family Social Work"
+          url: "https://scholar.google.com"
+          status: ""
+    - name: "Under Review"
+      papers:
+        - authors: "Huangshu Xu, G.L. Farmer"
+          year: "2025"
+          title: "Preparing MSW Students for Integrated Behavioral Health Practice: Evaluating the PIPELINE for Youth Health"
+          journal: "Journal of Social Work Education"
+          url: ""
+          status: "Under Review"
 
 projects:
-  title: "Projects"
+  title: "Research Projects"
   abstract_button_text: "Abstract"
   pdf_button_text: "Pdf"
   list:
-    - title: "Indulge in the vast array of handcrafted blends and single-origin coffees"
-      contributors: "Prof. Jane X. Researcher, Dr. Michael Y. Collaborator"
-      abstract_text: "Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger."
-      pdf: "/assets/pdf/example-project-document.pdf"
-      status: "completed"
-    - title: "Indulge in the vast array of handcrafted blends and single-origin coffees"
-      contributors: "Prof. Shimano P. Researcher, Dr. Hasura Y. Collaborator"
-      abstract_text: "Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger."
-      pdf: "/assets/pdf/example-project-document.pdf"
-      status: "completed"
-    - title: "Indulge in the vast array of handcrafted blends and single-origin coffees"
-      contributors: "Prof. Parina T. Researcher, Dr. Priya Y. Collaborator"
-      abstract_text: "Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger."
-      pdf: "/assets/pdf/example-project-document.pdf"
+    - title: "Addressing the U.S. Maternal Mental Health Crisis: A Systematic Review"
+      contributors: "Huangshu Xu & J. Aguilar"
+      abstract_text: "Systematic review of theoretical frameworks, policies, and interventions to promote health equity in maternal mental health. Presented at SSWR 30th Annual Conference, Washington, DC, January 2026."
+      pdf: "/assets/pdf/xhs_cv_up_to_date.pdf"
       status: "ongoing"
+    - title: "A Missed Opportunity for Early Intervention: Behavioral Health Services in Maternal and Child Health Home Visiting Programs"
+      contributors: "Huangshu Xu & W. Torres"
+      abstract_text: "Examining integration of behavioral health services in maternal and child health home visiting programs. Presented at SSWR 30th Annual Conference, Washington, DC, January 2026."
+      pdf: "/assets/pdf/xhs_cv_up_to_date.pdf"
+      status: "completed"
+    - title: "Preparing MSW Students for Integrated Behavioral Health Practice: Evaluating the PIPELINE for Youth Health"
+      contributors: "Huangshu Xu & G.L. Farmer"
+      abstract_text: "Evaluation of HRSA-funded BHWET program preparing MSW students for integrated behavioral health practice with youth. Presented at CSWE Annual Program Meeting, Atlanta, GA, October 2023."
+      pdf: "/assets/pdf/xhs_cv_up_to_date.pdf"
+      status: "completed"
+    - title: "Supporting Behavioral Health Workforce Diversity and Resilience: Evaluating the PIPELINE for Youth Health Program"
+      contributors: "Huangshu Xu, G.L. Farmer, A. Panzano, & C. Tang"
+      abstract_text: "HRSA-funded initiative focused on workforce diversity, student resilience, and career pathways in behavioral health. Presented at CSWE Annual Program Meeting, Anaheim, CA, November 2022."
+      pdf: "/assets/pdf/xhs_cv_up_to_date.pdf"
+      status: "completed"
+    - title: "Narrowing the Front Door to NYC's Child Welfare System"
+      contributors: "James R. Dumpson Doctoral Fellowship Project with Dr. Anne Williams-Isom"
+      abstract_text: "Documenting the history of NYC's Administration for Children's Services (ACS). Supported convenings of high-level policymakers and assisted in research dissemination for child welfare reform."
+      pdf: "/assets/pdf/xhs_cv_up_to_date.pdf"
+      status: "completed"
 
 teaching:
   title: "Teaching"
   list:
-    - title: "Course: Indulge in the vast array of handcrafted blends"
-      school: "Institution: XYZ University"
+    - title: "SWGS 6803: Applied Social Work Research and Evaluation"
+      school: "Graduate School of Social Service, Fordham University"
       text: |
-        This introductory course provides an overview of the principles of quantum computing.
-        Topics covered include quantum mechanics fundamentals, quantum gates, quantum algorithms,
-        and applications in areas such as cryptography and optimization.
-      role: "Instructor"
-      period: "Fall 2024"
-      button_text: "Course Materials"
-      button_link: "https://example.com"
-    - title: "Course: Indulge in the vast array of handcrafted blends"
-      school: "Institution: XYZ University"
+        Teaching a 15-session in-person graduate course, leading instruction on applied research
+        methods and program evaluation while mentoring students in developing research-informed
+        practice and evaluation skills.
+      role: "Adjunct Instructor"
+      period: "Jan 2026 - Present"
+      button_text: "Fordham GSSS"
+      button_link: "https://www.fordham.edu/gsss"
+    - title: "SWGS 6320: Social Work Practice with Organizations and Communities"
+      school: "Graduate School of Social Service, Fordham University"
       text: |
-        This introductory course provides an overview of the principles of quantum computing.
-        Topics covered include quantum mechanics fundamentals, quantum gates, quantum algorithms,
-        and applications in areas such as cryptography and optimization.
-      role: "Visiting Professor"
-      period: "winter 2023"
-      button_text: "Course Materials"
-      button_link: "https://example.com"
-    - title: "Course: Indulge in the vast array of handcrafted blends"
-      school: "Institution: XYZ University"
-      text: |
-        This introductory course provides an overview of the principles of quantum computing.
-        Topics covered include quantum mechanics fundamentals, quantum gates, quantum algorithms,
-        and applications in areas such as cryptography and optimization.
-      role: "Instructor"
-      period: "Spring 2022"
-      button_text: "Course Materials"
-      button_link: "https://example.com"
+        Assisted in three in-person teaching sessions by preparing lectures and presentations.
+        Facilitated group discussions and provided detailed feedback on student assignments to
+        support classroom engagement and develop skills in course facilitation and instructional support.
+      role: "Teaching Assistant"
+      period: "May 2024 - Aug 2024"
+      button_text: "Fordham GSSS"
+      button_link: "https://www.fordham.edu/gsss"
 news:
   title: "News"
   list:
-    - text: "Presenting at Annual BioInformatics Conference"
-      url: "https://example.com"
-      date: "10 Jul 2024"
-    - text: "Published a Paper on Plants Intelligence on Plants Research Journal"
-      url: "https://example.com"
-      date: "12 Dec 2023"
-    - text: "Presented at Connect The Dots Conference"
-      url: "https://example.com"
-      date: "19 Sep 2024"
+    - text: "Started teaching SWGS 6803: Applied Social Work Research and Evaluation as Adjunct Instructor"
+      url: "https://www.fordham.edu/gsss"
+      date: "Jan 2026"
+    - text: "Presented two posters at SSWR 30th Annual Conference in Washington, DC"
+      url: "https://sswr.confex.com/sswr/2026/meetingapp.cgi"
+      date: "Jan 2026"
+    - text: "Published paper on intergenerational continuity of child maltreatment in Child & Family Social Work"
+      url: "https://scholar.google.com"
+      date: "2025"
+    - text: "Presented poster on behavioral health workforce at CSWE Annual Program Meeting in Atlanta, GA"
+      url: "https://www.cswe.org"
+      date: "Oct 2023"
+    - text: "Presented at CSWE Annual Program Meeting in Anaheim, CA on PIPELINE for Youth Health Project"
+      url: "https://www.cswe.org"
+      date: "Nov 2022"
 
 affiliations:
   title: "Professional Affiliations"
   list:
-    - text: "Quantum Computing Society, Member"
-      period: "2020 - Present"
-    - text: "Machine Learning Association, Fellow"
-      period: "2021 - Present"
-    - text: "Bionic Zero Research Society, Member"
-      period: "2019 - Present"
+    - text: "Society for Social Work and Research (SSWR), Member"
+      period: "Present"
+    - text: "Council on Social Work Education (CSWE), Member"
+      period: "Present"
+    - text: "James R. Dumpson Doctoral Fellowship, Fordham University Graduate School of Social Service"
+      period: "2021 - 2022"
+    - text: "Behavioral Health Workforce Education and Training (BHWET) Fellowship, HRSA, Fordham University"
+      period: "2022 - 2024"
+    - text: "Behavioral Health Clinician, Henry Street Settlement, Hunter College/Research Foundation CUNY"
+      period: "2018 - 2019"
+    - text: "Bilingual Social Worker, SCO–Center for Family Life"
+      period: "2016 - 2018"
 
 contact:
   title: "Contact"
   list:
-    - email:
-      text: "Email"
-      url: "mailto:name@example.com"
-      icon: "/assets/images/envelope-square.svg"
+    # - email:
+    #   text: "xhuangshu@fordham.edu"
+    #   url: ""
+    #   icon: "/assets/images/envelope-square.svg"
     - linkedin:
-      text: "linkedIn"
-      url: "https://linkedin.com"
+      text: "LinkedIn"
+      target: "_blank"
+      url: "https://www.linkedin.com/in/huangshu-xu-5b63aa112/"
       icon: "/assets/images/linkedin-original.svg"
-    - researchgate:
-      text: "ResearchGate"
-      url: "https://researchgate.com"
-      icon: "/assets/images/researchgate.svg"
-    - academia_edu:
-      text: "Academia.edu"
-      url: "https://academia.edu"
-      icon: "/assets/images/academia-square.svg"
+    - google_scholar:
+      text: "Google Scholar"
+      target: "_blank"
+      url: "https://scholar.google.com/citations?user=REttBB8AAAAJ&hl=en"
+      icon: "/assets/images/google_scholar_icon_130918.svg"
+      icon_size: 50
+    # - website:
+    #   text: "Homepage"
+    #   url: "https://www.huangshuxu.com"
+    #   target: "_blank"
+    #   icon: "/assets/images/icons8-website-100.png"
+    #   icon_size: 60

@@ -5,11 +5,32 @@
       </div>
       <div class="p-3 pb-md-4 text-center">
         {% for item in site.data.hometext.contact.list %}
+        {% if item.url and item.url != "" %}
         <a href="{{item.url}}" class="fs-4 text-body-secondary text-decoration-none">
-          <img src="{{item.icon}}" width="100">
+          <img src="{{item.icon}}" width="{% if item.icon_size %}{{item.icon_size}}{% else %}100{% endif %}">
           <span class="d-none d-lg-inline-block">{{item.text}}</span>
         </a>
+        {% else %}
+        <span class="fs-4 text-body-secondary text-decoration-none">
+          <img src="{{item.icon}}" width="{% if item.icon_size %}{{item.icon_size}}{% else %}100{% endif %}">
+          <span class="d-none d-lg-inline-block">{{item.text}}</span>
+        </span>
+        {% endif %}
         {% endfor %}
+      </div>
+
+      <!-- Visitor Map Section -->
+      <div class="p-3 pb-md-4 text-center">
+        <h3 class="h5 mb-4 text-body-secondary">Visitor Map</h3>
+        <div id="visitor-map-container" style="max-width: 600px; margin: 0 auto;">
+          <!-- MapMyVisitors Widget - JavaScript method (recommended) -->
+          <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=-uUahpgceBy-Ch6uB9ymBfUzwZ0R0KkDKeyRRy9p2ZY&cl=ffffff&w=a"></script>
+
+          <!-- Alternative: Plain image embed code (use if JavaScript doesn't work) -->
+          <!-- <a href="https://mapmyvisitors.com/web/1c1yf" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=-uUahpgceBy-Ch6uB9ymBfUzwZ0R0KkDKeyRRy9p2ZY&cl=ffffff"></a> -->
+
+          <!-- View statistics at: https://mapmyvisitors.com/web/1c1yf -->
+        </div>
       </div>
     </div>
 </div>
