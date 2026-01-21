@@ -28,11 +28,11 @@ header:
     - type: "phone"
       text: "+1 (917) 213-5822"
       icon: "/assets/images/icons8-mobile-phone-50.png"
-      icon_size: 35
+      icon_size: 30
     - type: "address"
       text: "Fordham University at Lincoln Center, NYC"
       icon: "/assets/images/icons8-address-30.png"
-      icon_size: 35
+      icon_size: 30
 
 publications:
   title: "Publications"
