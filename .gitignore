@@ -8,3 +8,5 @@ _site
 .bundle/
 /vendor/
 Gemfile.lock
+.DS_Store
+asserts/.DS_Store
