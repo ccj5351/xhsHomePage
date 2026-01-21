@@ -30,8 +30,10 @@
         <span class="badge bg-secondary">{{paper.status}}</span>
         {% endif %}
       </p>
-      {% if paper.url %}
+      {% if paper.url and paper.url != "" %}
       <a href="{{paper.url}}" class="btn btn-outline-primary btn-sm text-uppercase" target="_blank">View Paper</a>
+      {% elsif paper.url == "" %}
+      <span class="btn btn-outline-secondary btn-sm text-uppercase" disabled>Paper Coming Soon</span>
       {% endif %}
     </div>
     {% endfor %}
