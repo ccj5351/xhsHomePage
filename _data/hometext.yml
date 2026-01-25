@@ -2,6 +2,7 @@ header:
   title: "Huangshu Xu"
   sub_title: "LMSW, Ph.D. Candidate in Social Work"
   image: "/assets/images/xhs-profile-202510.jpeg"
+  image_size: 300  # Profile image size in pixels (default: 600)
   text: |
     Doctoral candidate in Social Work at Fordham University, specializing in child, youth, and
     family wellbeing, maternal mental health, and integrated behavioral health. Experienced in

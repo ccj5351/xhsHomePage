@@ -17,7 +17,7 @@
     </div>
     <div class="col-md-5">
       <div class="text-center">
-        <img src="{{site.data.hometext.header.image}}" alt="Photo of {{site.data.hometext.header.title}}" class="d-block mx-lg-auto img-fluid object-fit-cover" width="600" height="600">
+        <img src="{{site.data.hometext.header.image}}" alt="Photo of {{site.data.hometext.header.title}}" class="d-block mx-lg-auto img-fluid object-fit-cover" width="{% if site.data.hometext.header.image_size %}{{site.data.hometext.header.image_size}}{% else %}600{% endif %}" height="{% if site.data.hometext.header.image_size %}{{site.data.hometext.header.image_size}}{% else %}600{% endif %}">
 
         <!-- Contact info under profile image -->
         {% if site.data.hometext.header.contact_info %}
